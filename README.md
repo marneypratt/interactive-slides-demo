@@ -35,3 +35,19 @@ format:
   revealjs:
     lightbox: true
 ```
+
+## Publishing
+
+There are several places you can publish Quarto slides
+
+-  [Publishing Basics](https://quarto.org/docs/publishing/) (compares different options)
+-  Use instructions from [Happy Git and GitHub for the useR](https://happygitwithr.com/) to get setup with version control
+
+-  This demo was published using GitHub Pages using the [Publish Command](https://quarto.org/docs/publishing/github-pages.html#publish-command) method using the following steps
+
+    -  I created a GitHub repository first and then created a Quarto Project associated with it
+    -  I created website on [GitHub Pages](https://docs.github.com/en/pages/quickstart) 
+    -  When ready to publish my slides, I 
+        -  Tested the slides by Rendering them to make sure things worked and looked how I wanted
+        - Committed and pushed to my GitHub repository
+        - Typed `quarto publish gh-pages dichotomous-key-demo.qmd` in the terminal to publish the slides
