@@ -22,6 +22,16 @@ This is a demonstration for how to use the Quarto presentation format (revealjs)
 3) Use the "dichotomous-key-demo.qmd" file as a template/example to base your own slides off of.
 
 
-## Tips
+## Tips & Resources
 
 -  See the [Quarto documentation for how to format Revealjs presentation slides](https://quarto.org/docs/presentations/revealjs/) 
+-  See additional [extensions for Revealjs Quarto Slides](https://quarto.org/docs/extensions/listing-revealjs.html)
+-  [Slidecrafting-Making beautiful slides with reveal.js and Quarto](https://slidecrafting-book.com/)
+-  Use lightbox to make images that you can click to zoom. Add the code below into the yaml
+
+
+```r
+format:
+  revealjs:
+    lightbox: true
+```
